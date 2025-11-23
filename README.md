@@ -1,5 +1,4 @@
-# huffman_bs.py - BombSquad/Ballistica Network Packet Huffman Codec
-
+# huffman-bs
 This tool decompresses and compresses Huffman-encoded network packets used in
 BombSquad (Ballistica engine). It can decode captured packets to understand their
 structure and create new packets for testing or modding.
@@ -18,5 +17,5 @@ to achieve ~40-60% compression on typical game packets.
 
 # Based on
 Ballistica source code
-    src/ballistica/scene_v1/support/huffman.cc
-    src/ballistica/base/networking/networking.h
+`src/ballistica/scene_v1/support/huffman.cc`
+`src/ballistica/base/networking/networking.h`
